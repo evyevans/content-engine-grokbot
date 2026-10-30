@@ -1,0 +1,224 @@
+{
+  "head": {
+    "id": null,
+    "name": "Content Coordinator",
+    "role": "Main bot \u2013 Head Strategist + delegator",
+    "profile": "bot_profiles/coordinator.md",
+    "key": "head"
+  },
+  "group_chats": [
+    {
+      "id": null,
+      "name": "Team TikTok",
+      "members": [
+        "head",
+        "tiktok_hook_search",
+        "tiktok_caption_cta",
+        "tiktok_hashtag_timing_safety",
+        "tiktok_team_lead"
+      ],
+      "key": "group_tiktok"
+    },
+    {
+      "id": null,
+      "name": "Team IG",
+      "members": [
+        "head",
+        "ig_hook_cover",
+        "ig_caption_sendcta_alttext",
+        "ig_hashtag_timing_trialreel",
+        "ig_team_lead"
+      ],
+      "key": "group_ig"
+    },
+    {
+      "id": null,
+      "name": "Team Youtube",
+      "members": [
+        "head",
+        "yt_title_search",
+        "yt_description_hashtags",
+        "yt_longform_related",
+        "yt_team_lead"
+      ],
+      "key": "group_yt"
+    }
+  ],
+  "specialists": [
+    {
+      "id": null,
+      "slug": "tiktok_hook_search",
+      "name": "TikTok Hook & Search Specialist",
+      "team": "Team TikTok",
+      "order": 1,
+      "role": "Hook (say it), on-screen text, cover",
+      "profile": "bot_profiles/tiktok_hook_search.md",
+      "key": "tiktok_hook_search"
+    },
+    {
+      "id": null,
+      "slug": "tiktok_caption_cta",
+      "name": "TikTok Caption & CTA Specialist",
+      "team": "Team TikTok",
+      "order": 2,
+      "role": "Caption \u2264300 chars + rotated CTA",
+      "profile": "bot_profiles/tiktok_caption_cta.md",
+      "key": "tiktok_caption_cta"
+    },
+    {
+      "id": null,
+      "slug": "tiktok_hashtag_timing_safety",
+      "name": "TikTok Hashtag, Timing & Safety Specialist",
+      "team": "Team TikTok",
+      "order": 3,
+      "role": "3\u20135 hashtags, post window, safety flag",
+      "profile": "bot_profiles/tiktok_hashtag_timing_safety.md",
+      "key": "tiktok_hashtag_timing_safety"
+    },
+    {
+      "id": null,
+      "slug": "tiktok_team_lead",
+      "name": "TikTok Team Lead / Packager",
+      "team": "Team TikTok",
+      "order": 4,
+      "role": "Self-check + final block for User + CTA log to coordinator",
+      "profile": "bot_profiles/tiktok_team_lead.md",
+      "key": "tiktok_team_lead"
+    },
+    {
+      "id": null,
+      "slug": "ig_hook_cover",
+      "name": "IG Hook & Cover Specialist",
+      "team": "Team IG",
+      "order": 1,
+      "role": "Hook, on-screen text, cover text + frame",
+      "profile": "bot_profiles/ig_hook_cover.md",
+      "key": "ig_hook_cover"
+    },
+    {
+      "id": null,
+      "slug": "ig_caption_sendcta_alttext",
+      "name": "IG Caption, Send-CTA & Alt-text Specialist",
+      "team": "Team IG",
+      "order": 2,
+      "role": "Caption \u2264400 chars, send/save CTA, alt text",
+      "profile": "bot_profiles/ig_caption_sendcta_alttext.md",
+      "key": "ig_caption_sendcta_alttext"
+    },
+    {
+      "id": null,
+      "slug": "ig_hashtag_timing_trialreel",
+      "name": "IG Hashtag, Timing & Trial-Reel Specialist",
+      "team": "Team IG",
+      "order": 3,
+      "role": "3\u20135 hashtags (hard cap 5), window, Trial Reel call",
+      "profile": "bot_profiles/ig_hashtag_timing_trialreel.md",
+      "key": "ig_hashtag_timing_trialreel"
+    },
+    {
+      "id": null,
+      "slug": "ig_team_lead",
+      "name": "IG Team Lead / Packager",
+      "team": "Team IG",
+      "order": 4,
+      "role": "Self-check + final block (+ Story teaser) + CTA log",
+      "profile": "bot_profiles/ig_team_lead.md",
+      "key": "ig_team_lead"
+    },
+    {
+      "id": null,
+      "slug": "yt_title_search",
+      "name": "YT Title & Search Specialist",
+      "team": "Team Youtube",
+      "order": 1,
+      "role": "Title \u226460 chars, first frame, cover frame",
+      "profile": "bot_profiles/yt_title_search.md",
+      "key": "yt_title_search"
+    },
+    {
+      "id": null,
+      "slug": "yt_description_hashtags",
+      "name": "YT Description & Hashtags Specialist",
+      "team": "Team Youtube",
+      "order": 2,
+      "role": "3-line description, exactly 3 hashtags, tags, CTA",
+      "profile": "bot_profiles/yt_description_hashtags.md",
+      "key": "yt_description_hashtags"
+    },
+    {
+      "id": null,
+      "slug": "yt_longform_related",
+      "name": "YT Long-form & Related-video Specialist",
+      "team": "Team Youtube",
+      "order": 3,
+      "role": "Related video, long-form titles/thumbnail/chapters",
+      "profile": "bot_profiles/yt_longform_related.md",
+      "key": "yt_longform_related"
+    },
+    {
+      "id": null,
+      "slug": "yt_team_lead",
+      "name": "YT Team Lead / Packager",
+      "team": "Team Youtube",
+      "order": 4,
+      "role": "Self-check + final block(s) + CTA log",
+      "profile": "bot_profiles/yt_team_lead.md",
+      "key": "yt_team_lead"
+    }
+  ],
+  "standalone": [
+    {
+      "id": null,
+      "slug": "ig_thumbnail",
+      "name": "IG Thumbnail",
+      "role": "IG Reels cover designer (1080\u00d71920 JPEG), not in any group chat",
+      "profile": "bot_profiles/ig_thumbnail.md",
+      "key": "ig_thumbnail"
+    }
+  ],
+  "routines": [
+    {
+      "owner": "head",
+      "name": "Daily check-in",
+      "key": "checkin",
+      "enabled": false,
+      "phase": 1
+    },
+    {
+      "owner": "head",
+      "name": "Check-in nudge",
+      "key": "nudge",
+      "enabled": false,
+      "phase": 1
+    },
+    {
+      "owner": "head",
+      "name": "Ready-made idea",
+      "key": "idea",
+      "enabled": false,
+      "phase": 1
+    },
+    {
+      "owner": "head",
+      "name": "Comment round",
+      "phase": 2,
+      "key": "comments",
+      "enabled": false
+    },
+    {
+      "owner": "head",
+      "name": "Weekly R&D",
+      "phase": 2,
+      "key": "research",
+      "enabled": false
+    },
+    {
+      "owner": "head",
+      "name": "Weekly stats",
+      "phase": 3,
+      "key": "analytics",
+      "enabled": false
+    }
+  ],
+  "schema_version": 1
+}

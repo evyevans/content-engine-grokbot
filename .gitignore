@@ -1,0 +1,15 @@
+# User-specific setup and generated deployments
+config/user.json
+.local/
+logs/
+.env
+.env.*
+*.pem
+# Runtime caches
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+tools/thumbnail/.venv/
+tools/thumbnail/models/
+*.onnx

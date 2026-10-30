@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "creator": {
+    "display_name": "User",
+    "confirmed_facts": []
+  },
+  "coordinator": {
+    "name": "Content Coordinator"
+  },
+  "brand": {
+    "name": "",
+    "signature": ""
+  },
+  "niche": null,
+  "audience": null,
+  "pillars": [],
+  "voice": {
+    "style": "Clear, practical, encouraging. Short sentences.",
+    "language": "English",
+    "swearing": false,
+    "signature_phrases": [],
+    "banned_phrases": []
+  },
+  "handles": {
+    "tiktok": null,
+    "ig": null,
+    "yt": null
+  },
+  "goals": {
+    "outcome": null,
+    "cadence_per_week": null,
+    "followers": null,
+    "deadline": null
+  },
+  "statistics": null,
+  "timezone": null,
+  "schedule": {
+    "days": "daily",
+    "checkin": null,
+    "nudge": null,
+    "idea": null,
+    "comments": null,
+    "research": null,
+    "analytics": null
+  },
+  "phases": {
+    "2": false,
+    "3": false
+  },
+  "post_windows": {
+    "tiktok": null,
+    "ig": null,
+    "yt": null
+  },
+  "production": {
+    "constraints": "Use material the user can actually produce. Ask before assuming equipment, locations or time.",
+    "workspace_root": ".",
+    "output_dir": "covers"
+  },
+  "approvals": {
+    "creator": "User",
+    "operator": "User"
+  },
+  "banks": {
+    "hashtags": {
+      "tiktok": [],
+      "ig": [],
+      "yt": []
+    },
+    "watch_list": []
+  },
+  "safety": {
+    "topics_to_avoid": [],
+    "additional_rules": []
+  }
+}
