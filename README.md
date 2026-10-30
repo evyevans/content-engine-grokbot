@@ -6,13 +6,33 @@ A customizable content team for TikTok, Instagram and YouTube. Give the coordina
 
 One coordinator, twelve specialists, three team chats and one standalone thumbnail bot. The architecture stays the same for every niche. Your identity, audience, voice, pillars, schedule and goals come from one local profile.
 
-## Start with your agent
+## Set up with Grok Bot
 
-Download or clone this repository, then send your Grok Bot this message with the folder attached or available on its shared computer:
+Give your bot the [repository link](https://github.com/evyevans/content-engine-grokbot) and send this message:
 
-> Set up this Grok Bot Content Engine for me using skills/setup-content-engine/SKILL.md. Ask only for missing context, use my niche and audience, and verify the installation before enabling any routines. Use only resources belonging to this deployment. I will publish content myself.
+> Set up the Grok Bot Content Engine from https://github.com/evyevans/content-engine-grokbot for me. First, read the README and `skills/setup-content-engine/SKILL.md`, then follow that skill. Make the repository files available on your shared computer. Ask only for missing context, use my niche and audience, and verify the installation before enabling routines. Use only resources belonging to this deployment. I will review and publish content myself.
 
-The [setup skill](skills/setup-content-engine/SKILL.md) automates through the actual tools available in your account. It collects essentials, records created resources, compiles bound instructions and reports human-only steps. **This release has local automated tests; live account provisioning and model behavior still require the acceptance run.** It is not an external Grok Bot API client. Missing capabilities are reported, never simulated as success.
+If you prefer, clone or download the repository yourself and attach the folder or place it on the bot's shared computer. The bot needs access to the actual project files, not just this README. The preparation scripts require Python 3.10+ with IANA time-zone data.
+
+### What happens during setup
+
+1. **Share your context.** The bot asks for your niche, audience, IANA time zone, and three ordered local times for a check-in, a nudge and an idea offer. Choose daily or weekdays. You can also provide your brand, voice, content pillars, handles, goals and production constraints. Unknown details stay unknown.
+2. **Prepare your team.** The bot follows the setup skill to create or explicitly select the coordinator, twelve specialists and standalone IG Thumbnail bot, plus three platform group chats. It records resource IDs locally, generates instructions from your profile and checks membership and access. If its actual tools cannot complete a step, it should explain the manual step and verify the result afterward.
+3. **Keep routines paused while testing.** The bot checks saved routine owners, prompts, local times, days and time zone. Optional comments/research and analytics phases are enabled only if you choose them. If a capability such as detecting a prior reply is unavailable, unattended routines that depend on it stay disabled and setup is reported as incomplete.
+
+The setup skill uses the tools actually available in your account; it is not an external Grok Bot API client. This release has local automated tests, but **complete provisioning and model behavior have not yet been verified in a live Grok Bot account**. The live acceptance run is essential.
+
+### Test the complete workflow
+
+With routines paused, give the coordinator a safe example idea. Check the actual messages and files:
+
+- A vague idea gets one clarifying question. The coordinator sends summaries to the appropriate teams; different platform ideas remain in their own chats.
+- Each team works in order and its lead posts one platform draft in that team's chat, with copyable text in fenced blocks. Internal CTA numbers and logs do not appear in your draft.
+- An edit request goes to the relevant team lead. When a team does not deliver, the coordinator follows the documented fallback without duplicating an existing deliverable.
+- The thumbnail bot returns a real 1080 × 1920 JPEG with your chosen brand signature or no signature. You select the cover and post manually.
+- Unknown statistics, handles and eligibility remain unknown. No bot publishes to a social account on your behalf.
+
+Also test no-reply behavior, CTA rotation, schedule readback, and any optional phases you selected. The complete [live acceptance checklist](skills/setup-content-engine/references/acceptance.md) has the exact cases and evidence to record. Enable the selected routines only after the required checks pass in your account. If anything is unsupported or fails, keep affected routines inactive and resolve or document the missing step.
 
 ## What you customize
 
